@@ -8,7 +8,7 @@ let inputValue2;
 button1.addEventListener("click", function () {
   inputValue1 = input1.value;
   inputValue2 = input1.value;
-  if (inputValue1_1 && inputValue1_2) {
+  if (inputValue1 && inputValue2) {
     text1.textContent = "Обидва поля заповнені";
   } else {
     text1.textContent = "Не всі поля заповнені";
